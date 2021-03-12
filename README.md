@@ -1,4 +1,4 @@
-# SheHacks4.0 YOUR-AIDE
+# SheHacks4.0 
 
 ## Hypertext_S!ntax
 Team name for the hackathon.
