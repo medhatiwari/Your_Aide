@@ -12,4 +12,8 @@ Team name for the hackathon.
 
 
 ## Our Project # Your *AIDE* 
-Your AIDE broadens the range of menstruation knowledge for all stages of females. If you are a girl just hitting your puberty and don’t know what menstruation is, you are at the right place. If you are a woman and are stressed out during your period, *woohoo!!* you too are at the right place. And if you are a woman going through the menopause stage, *hakuna matata!!* we will aid you. We tell you all about menstruation, help track your periods. We also have exciting stress relieving games and quizzes for you all.
+Your AIDE broadens the range of menstruation knowledge for all stages of females. If you are a girl just hitting your puberty and don’t know what menstruation is, you are at the right place. 
+If you are a woman and are stressed out during your period, *woohoo!!* you too are at the right place. 
+And if you are a woman going through the menopause stage, *hakuna matata!!* we will aid you.  
+And if you are a man *gratissimum*, it might help managing the mood swings of your lady. 
+We tell you all about menstruation, help track your periods. We also have exciting stress relieving games and quizzes for you all.
