@@ -1,0 +1,80 @@
+body{
+    font-family:'Happy Monkey',cursive;
+    background-color:rgb(210,197,195);
+    
+}
+h1{
+    font-family:'Happy Monkey',cursive;
+    text-align: center;
+    font-size: 50px;
+}
+.column {
+    font-family:'Happy Monkey',cursive;
+    float: left;
+    width: 50%;
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+#quiz{
+    font-family:'Happy Monkey',cursive;
+    margin-left: 10px;
+    background:rgb(210,197,195);
+    padding: 10px 20px 10px 20px;
+    width:96%;
+    border-radius: 20px;
+    float: left;
+}
+input{
+    font-family:'Happy Monkey',cursive;
+    margin-bottom: 20px;
+    
+
+}
+#textbox{
+    font-family:'Happy Monkey',cursive;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+}
+#button{
+    background: rgb(159,137,147);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    margin-top:15px;
+}
+#button-hover{
+    background: white;
+    border:1px solid green;
+    color: black;
+    cursor: pointer;
+}
+#after_submit{
+    visibility: hidden;
+    background:rgb(159,137,147);
+    padding:10px 20px 10px 20px;
+    width:400px;
+    border-radius:20px;
+    float:left;
+    margin-left:20px;
+    font-size: 30px;
+}
+#mc{
+    display: inline;
+}
+#c{
+    display:inline
+}
+p{
+    font-size:larger;
+}
