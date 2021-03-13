@@ -31,7 +31,7 @@ function lose(user,computer) {
     computerScore++;
     userScore_span.innerHTML =userScore;
     computerScore_span.innerHTML = computerScore;
-    result_div.innerHTML = convert(user) +" loses to " + convert(computer) +"Better luck next time";
+    result_div.innerHTML = convert(user) +" loses to " + convert(computer) +", Better luck next time";
     document.getElementById(user).classList.add('red');
     setTimeout(function(){document.getElementById(user).classList.remove('red')},300);
 }
