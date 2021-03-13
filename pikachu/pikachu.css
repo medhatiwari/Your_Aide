@@ -74,6 +74,23 @@ header > h1{
     text-align:center;
     color:white;
     font-size:large;
+    padding-bottom:3em;
+}
+.move{
+    border: 1px solid white;
+    border-radius:5px;
+    border-width: inherit;
+    text-align:center;
+    
+    padding: 5em auto;
+    color:white;
+}
+.move > a{
+    color:white;
+    text-decoration:initial;
+}
+a:hover{
+    color:rgb(218, 218, 158);
 }
 .green{
     border: 4px solid green;
