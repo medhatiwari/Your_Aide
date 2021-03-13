@@ -1,0 +1,11 @@
+.navigation-clean {
+  background: rgb(210,197,195);
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #333;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+}
+
