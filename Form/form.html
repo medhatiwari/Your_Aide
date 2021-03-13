@@ -58,11 +58,14 @@
                 y.style.left="450px";
                 z.style.left="0px";
             }
-            
-            
-            
 
-
+        document.body.classList.add('fade');
+        document.addEventListener("DOMContentLoaded", () => {
+        window.setTimeout(function() {
+        document.body.classList.remove('fade');
+      }, 230);
+    });
+            
         </script>
     </body>
 </html>

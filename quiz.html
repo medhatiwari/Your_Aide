@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="assets\css\quiz.css" >
+    <script src="assets\js\quiz.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/screen_set.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          window.setTimeout(function() {
+            document.body.className = '';
+          }, 230);
+        });
+      </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+            <div class="container"><a class="navbar-brand" href="#">Your <em>AIDE</em><img class="image" src="assets/img/final.png"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item dropdown show"><a class="dropdown-toggle nav-link" aria-expanded="true" data-toggle="dropdown" href="#">Move to</a>
+                            <div class="dropdown-menu show"><a class="dropdown-item" href="#">Menarche</a><a class="dropdown-item" href="#">Period Tracker</a><a class="dropdown-item" href="#">Menopause</a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <h1 >Let's have a quiz</h1>
+        <br>
+        <div class ="container">
+        <div class="row">
+        <form id="quiz" name="quiz">
+            
+                <div class="column">
+            <p>How long does a typical period last?</p>
+            <br>
+            <input type="radio" id="mc" name="ques1" value="k">&nbsp 3-5 days<br>
+            <input type="radio" id="mc" name="ques1" value="s">&nbsp A week<br>
+            <input type="radio" id="mc" name="ques1" value="a">&nbsp 2 days<br>
+            <br>
+            <p>How much blood does an average woman lose during periods?</p>
+            <br>
+            <input type="radio" id="mc" name="ques2" value="1">&nbsp About two spoonfuls<br>
+            <input type="radio" id="mc" name="ques2" value="2">&nbsp A lot more than that<br>
+            <input type="radio" id="mc" name="ques2" value="3">&nbsp About twice the volume of a small-sized cup<br>
+            <br>
+            <p>When is Menstrual Hygiene Day celebrated?</p>
+            <br>
+            <input type="radio" id="c" name="ques3" value="1">&nbsp 28 May<br>
+            <input type="radio" id="c" name="ques3" value="2">&nbsp 27 May<br>
+            <input type="radio" id="c" name="ques3" value="3">&nbsp 26 May<br>
+            <br>
+            </div>
+            <div class="column">
+
+            <p> What is the main cause of menopause?</p>
+            <br>
+            <input type="radio" id="c" name="ques4" value="1">&nbsp Reduction in the level of oestrogen<br>
+            <input type="radio" id="c" name="ques4" value="2">&nbsp Increase in the level of oestrogen<br>
+            <input type="radio" id="c" name="ques4" value="3">&nbsp Increase in the level of progesterone<br>
+            <br>
+            
+            <p>Which one the following is not a good practice during menstrual cycle?</p>
+            <br>
+            <input type="radio" id="c" name="ques5" value="1">&nbsp Use pads or tampons for long<br>
+            <input type="radio" id="c" name="ques5" value="2">&nbsp Keep the pubic area clean<br>
+            <input type="radio" id="c" name="ques5" value="3">&nbsp Dispose used pads safely<br>
+            <br>
+            
+
+            <input id="button" type="button" value="I'm finished!" onclick="check();">
+        </div>
+        <div class="column">
+        </form>
+        <div id="after_submit">
+            <p id="message"></p>
+        <p id="number_correct"></p>
+        </div>
+        </div>
+        </div>
+    </div>
+        <br>
+        <br>
+        <div>
+            <footer class="footer-basic">
+                <div class="social"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-google"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+                <ul class="list-inline">
+                    <li class="list-inline-item">Home</li>
+                    <li class="list-inline-item">About</li>
+                    <li class="list-inline-item">Privacy Policy</li>
+                    <li class="list-inline-item"><a href="#"></a></li>
+                </ul>
+                <p class="copyright">Hypertext_S!ntax © 2021</p>
+            </footer>
+        </div>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

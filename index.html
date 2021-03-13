@@ -59,11 +59,12 @@
         </footer>
     </div>
     <script>
+        document.body.classList.add('fade');
         document.addEventListener("DOMContentLoaded", () => {
-          window.setTimeout(function() {
-            document.body.className = '';
-          }, 230);
-        });
+        window.setTimeout(function() {
+        document.body.classList.remove('fade');
+      }, 230);
+    });
       </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
