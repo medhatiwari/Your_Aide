@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Happy Monkey',cursive;
+    
+}
+
+
+.hero{
+    text-align: center;
+    
+    
+    height: 100%;
+    width:100%;
+    background-color: rgb(210,197,195);
+    background-position: center;
+    background-size: cover;
+    position:absolute;
+
+}
+.zero{
+    font-size:20px;
+    padding-top: 4em;
+}
+.form-box{
+    width:380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background:#fff;
+    padding:5px;
+    overflow: hidden;
+
+
+}
+.button-box{
+    width:220px;
+    margin:35px auto;
+    position: relative;
+    
+    border-radius: 30px;
+
+}
+.toggle-btn{
+    padding:10px 30px;
+    cursor: pointer;
+    background:transparent;
+    border:0;
+    outline :none;
+    position:relative;
+
+}
+#btn{
+    top:0;
+    left:0;
+    position:absolute;
+    width:100px;
+    height:100%;
+    background:linear-gradient(to right,rgb(210,197,195),rgb(159,137,147));
+    border-radius: 30px;
+   
+    
+}
+
+
+
+
+.submit-btn{
+    width:85%;
+    height: 20%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display:block;
+    margin:auto;
+    background:linear-gradient(to right,rgb(210,197,195),rgb(159,137,147));;
+    border:0;
+    outline: none;
+    border-radius: 30px;
+
+}
+.check-box{
+    margin:30px 10px 30px 0;
+
+}
+span{
+    color: #777;
+    font-size:12px;
+    bottom:68px;
+    position: absolute;
+
+}
+#login{
+    left:50px;
+
+}
+#register{
+    left:450px;
+
+}
