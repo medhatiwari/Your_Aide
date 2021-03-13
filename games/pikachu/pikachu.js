@@ -45,7 +45,7 @@ function draw(user , _computer) {
 function Pikachu(userChoice){
     const compChoice = getComputerChoice();
     switch(userChoice + compChoice){
-        case "ph":
+        case "pc":
         case "ck":
         case "kp":
             wins(userChoice , compChoice);
