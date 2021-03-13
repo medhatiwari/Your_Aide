@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>30 Seconds</title>
+    <style type="text/css">
+        * {
+            font-family: 'Happy Monkey', cursive;
+        }
+body{
+    background-color: rgb(210,197,195);
+}
+        h1{
+            font-family: 'Happy Monkey', cursive;
+            font-size: 20mm;
+            color: rgb(159,137,147);
+            text-align: center;
+
+        }
+        .container {
+            top: 50%;
+            left: 50%;
+            position:absolute;
+            
+            transform: translate(-50%, -50%);
+            color: rgb(159,137,147);
+            
+        }
+        .button1{
+            width:100%;
+            height:50px;
+            color: white;
+            background-color: rgb(159,137,147);
+            border:none;
+        }
+        .exercise{
+            
+            box-shadow: 10px 10px 5px rgb(159,137,147);
+        }
+        .countdown{
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            
+
+        }
+        td{
+            text-align: center;
+        }
+        button{
+            font-size: 10mm;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <table>
+        <tr>
+             <div class="exercise">
+                <img src="src\Exercise4.gif" height="400" width="550">
+            </div>
+        </tr>
+            <tr><div class="countdown"></div><h1 id="count">30</h1></div>
+                <a href="exercise.html">
+                    <button class="button button1">
+                        Go Back
+                    </button>
+                </a>
+                </tr>
+        
+    </table>
+    </div> 
+    
+    <script type="text/javascript">
+        var counter = 30;
+
+        setInterval( function(){
+            counter--;
+
+            if( counter >= 0){
+                id = document.getElementById("count");
+                id.innerHTML = counter;
+            }
+
+            if( counter == 0){
+                id.innerHTML = "Well Done!";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

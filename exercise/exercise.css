@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: 'Happy Monkey',cursive;
+  font-size: 22px;
+}
+.shadow{
+  box-shadow: 10px 10px 5px rgb(159,137,147);
+  background: url(img/tiger.png) no-repeat;
+}
+  html {
+    font-size: 63.5%;
+    font-weight: 100;
+  }
+  .button{
+    width: 60%;
+    height:10%;
+    background-color: rgb(159, 137, 147);
+    color: white;
+    align-items: center;
+    border:none;
+  }
+  .button1{
+    width: 40%;
+    height: 10%;
+    background-color: rgb(159, 137, 147);
+    color: white;
+    border: none;
+  }
+ table,th,td{
+   text-align: center;
+ }
+  .container {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(210,197,195);
+   color: rgb(159, 137, 147);
+   
+  }
